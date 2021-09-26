@@ -1,0 +1,92 @@
+body{
+    display:block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("./image/bbc.webp");
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+ .container
+{
+    position: relative;
+    height:100%;
+    left:0px;
+
+} 
+.title_img{
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.heder
+ {
+     /* top:-45%;  */
+     padding-bottom: 5%;
+     height:100%;  
+     width:100%;   
+     /* background-image: url("./image/hb.png");    */
+     /* background-size: 100px;  */
+     /* background-repeat: no-repeat;  */
+     /* border-bottom:2px solid #0b110f;  */
+     margin-left: 20px; 
+     /* margin-top:10% ;   */
+     font-size: 50px;
+     color:white;  
+
+}
+.img_txt{
+    margin-top: -12%;
+    /* size: 200%; */
+    
+    /* padding-top:-50%; */
+    /* padding-left: 70%; */
+    align-items: center;
+}
+.btn{
+    position:absolute;
+    top:45px;
+    right:20px;
+
+}
+button{
+    color:rgb(245, 245, 245);
+    height:35px;
+    width:100px;
+
+    background-image: linear-gradient(rgb(0, 0, 0),rgb(161, 82, 68));
+    border-radius: 10px;
+
+
+}
+#data
+{
+    width:99%;
+    height:450px;
+    text-align: right;
+    justify-content: center;
+    display: flex;   
+
+}
+.table
+{
+    width:800px;
+
+}
+table{
+    color:white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: 700;
+
+}
+table tr :hover{
+    background-image: linear-gradient(white,rgb(231, 199, 199),white) ;
+    clip-path: circle();
+}
+img{
+    clip-path: circle();
+}
+.welcome{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(10, 8, 8, 0.671);
+    padding-top: 140px;
+} 
